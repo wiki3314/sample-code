@@ -4,7 +4,7 @@
   "description": "",
   "main": "app.ts",
   "scripts": {
-    "start": "node ./build",
+    "start": "ts-node src/app.ts",
     "start:dev": "nodemon src/app.ts",
     "test": "jest"
   },
